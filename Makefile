@@ -6,7 +6,7 @@
 #    By: plau <plau@student.42.kl>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/29 09:10:03 by plau              #+#    #+#              #
-#    Updated: 2022/12/15 20:53:40 by plau             ###   ########.fr        #
+#    Updated: 2022/12/16 21:18:50 by plau             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CC            	=    	gcc
 RM            	=    	rm -f
 CFLAGS       	=    	-Wall -Wextra -Werror -Imlx
 # CFLAGS       	=    	-fsanitize=address -g3
-SRCS_FILES    	=   	pipex_main_bonus \
+SRCS_FILES    	=   	pipex_main \
 						pipex_fork \
 						pipex_utils \
 						pipex_pipex

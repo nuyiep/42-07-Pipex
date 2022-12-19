@@ -6,7 +6,7 @@
 /*   By: plau <plau@student.42.kl>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 17:30:46 by plau              #+#    #+#             */
-/*   Updated: 2022/12/16 20:59:25 by plau             ###   ########.fr       */
+/*   Updated: 2022/12/19 12:31:13 by plau             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /* Initalize struct */
 void	init_struct(t_prg *prg, int ac)
 {
-	if (ac < 5)
+	if (ac != 5)
 		print_error("Invalid number of arguments");
 	prg->fd_in = 0;
 	prg->fd_out = 0;
